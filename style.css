@@ -1,0 +1,59 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body {
+  margin: 10px;
+  padding: 10px;
+}
+.grid {
+  height: 420px;
+  width: 420px;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid black;
+}
+.grid div {
+  height: 15px;
+  width: 15px;
+}
+.pac-dot {
+  background-color: green;
+  border: 5px solid white;
+  box-sizing: border-box;
+}
+.wall {
+  background-color: aqua;
+}
+.power-pallet {
+  background-color: green;
+  border-radius: 7.5px;
+}
+.pacman {
+  background-color: red;
+  border-radius: 7.5px;
+  border: none;
+}
+.redGhost {
+  background-color :tomato;
+  border: none;
+  border-radius: 10px;
+}
+.blueGhost {
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
+}
+.pinkGhost {
+  background-color: pink;
+  border: none;
+  border-radius: 10px;
+}
+.blackGhost {
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+}
+.scared-ghost{
+  background-color: greenyellow;
+}
